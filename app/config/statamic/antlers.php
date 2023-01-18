@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'version' => 'regex',
-
+    #'version' => 'regex', #Old parsing option
+    'version' => 'runtime',
     /*
     |--------------------------------------------------------------------------
     | Guarded Variables
