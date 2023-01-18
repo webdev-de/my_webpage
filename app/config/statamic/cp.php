@@ -38,6 +38,10 @@ return [
     */
 
     'widgets' => [
+        [ 
+            'type' => 'updater',
+            'width' => 100,
+        ], 
         'getting_started',
     ],
 
