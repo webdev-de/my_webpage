@@ -1,0 +1,13 @@
+{{#
+    Navigation
+#}}
+
+{{ if name && name === "main"}}
+<nav>
+    <ul style="border: 1px solid red">
+        {{ nav:main_nav }}
+        <li><a href="{{ url }}">{{ title }}</a></li>
+        {{ /nav:main_nav }}
+    </ul>
+</nav>
+{{ /if }}

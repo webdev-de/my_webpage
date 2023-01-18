@@ -1,0 +1,29 @@
+title: Seo
+fields:
+  -
+    handle: meta_title
+    field:
+      input_type: text
+      character_limit: 60
+      antlers: false
+      display: 'Meta Title'
+      type: text
+      icon: text
+      instructions: 'Enter the title to be displayed in search engines'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: meta_description
+    field:
+      character_limit: '155'
+      antlers: false
+      display: 'Meta Description'
+      type: textarea
+      icon: textarea
+      instructions: 'Enter the description to be displayed in search engines'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

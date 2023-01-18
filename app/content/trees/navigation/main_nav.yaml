@@ -1,1 +1,9 @@
-{  }
+tree:
+  -
+    id: f8c2d071-6b7b-4b7f-90e8-0c5f5ee5cade
+    title: 'Example 1'
+    url: 'https://example.com'
+  -
+    id: c4980b74-689c-47f5-afc0-595a2c2f09a4
+    title: 'Example 2'
+    url: 'https://example.com'
